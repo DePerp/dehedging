@@ -1,4 +1,4 @@
-# DePerp Hedging Module v.0.0.1 BETA
+# DePerp Hedging Module v.0.0.2
 
 ## Overview
 
@@ -121,6 +121,15 @@ export const mapBinanceMarkets = {
     "BTC-USD": "BTCUSDT",
     "ETH-USD": "ETHUSDT"
 };
+
+```
+
+**Setup LEVERAGE and COLLATERAL**
+The market configuration is typically defined in a separate file (e.g., `helpers.js`)
+
+```
+const DEFAULT_LEVERAGE = defaultLeverages?.binance || 20;
+const MIN_COLLATERAL = 50;
 
 ```
 

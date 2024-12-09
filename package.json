@@ -15,7 +15,6 @@
     "@binance/connector": "^3.4.1",
     "@pythnetwork/pyth-evm-js": "^1.1.0",
     "binance": "^2.13.1",
-    "bingx-trading-api": "^1.1.5",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "write-excel-file": "^2.0.9"
